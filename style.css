@@ -1,0 +1,130 @@
+/* Same reset as before */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #222;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x400/333/fff?text=Elegant+Interiors') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services, .projects, .contact {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.services h3, .projects h3, .contact h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 2;
+    max-width: 800px;
+    margin: auto;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.project-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #eee;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
